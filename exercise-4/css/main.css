@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 150px 0 0;
+  font: 14px/1.4 helvetica;
+}
+
+.fancymenu {
+  height: 100px;
+  color: #fff;
+  background: red;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.fancymenu.hidden {
+  top: -100px;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto 50px auto;
+}
